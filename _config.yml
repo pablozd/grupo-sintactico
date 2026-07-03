@@ -2,7 +2,7 @@ title: "Grupo Sintáctico"
 subtitle: "Lecturas de sintaxis para estudiantes de Letras"
 description: "Sitio del Grupo Sintáctico: lecturas, actividades, calendario e integrantes."
 url: ""
-baseurl: ""
+baseurl: "/grupo-sintactico"
 repository: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
