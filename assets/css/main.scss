@@ -1,0 +1,181 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+/* =========================================================
+   Grupo Sintáctico — estilo visual propio
+   ========================================================= */
+
+:root {
+  --gs-blue: #1B3A5C;
+  --gs-blue-dark: #10243A;
+  --gs-copper: #C4622D;
+  --gs-copper-light: #E8956A;
+  --gs-cream: #FAF9F7;
+  --gs-ink: #1A1A2E;
+  --gs-muted: #6B7280;
+  --gs-border: #E5E0D8;
+}
+
+/* Fondo general */
+body {
+  background: linear-gradient(180deg, #FAF9F7 0%, #FFFFFF 42%);
+  color: var(--gs-ink);
+}
+
+/* Barra superior */
+.masthead {
+  background: rgba(250, 249, 247, 0.95);
+  border-bottom: 1px solid var(--gs-border);
+  backdrop-filter: blur(8px);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.site-title {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--gs-blue-dark);
+}
+
+.site-title::after {
+  content: ".";
+  color: var(--gs-copper);
+}
+
+/* Links */
+a {
+  color: var(--gs-blue);
+}
+
+a:hover {
+  color: var(--gs-copper);
+}
+
+/* Títulos */
+.page__title,
+.archive__item-title {
+  letter-spacing: -0.035em;
+}
+
+.page__title {
+  font-size: 2.4rem;
+  color: var(--gs-blue-dark);
+}
+
+/* Portada */
+.page__hero--overlay {
+  border-radius: 0 0 32px 32px;
+  background-position: center;
+}
+
+.page__hero--overlay .page__title {
+  font-size: clamp(2.4rem, 6vw, 4.6rem);
+  line-height: 0.95;
+  max-width: 780px;
+}
+
+.page__hero--overlay .page__lead {
+  font-size: 1.25rem;
+  max-width: 720px;
+}
+
+/* Contenido principal */
+.page__content {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.page__content h2 {
+  color: var(--gs-blue-dark);
+  margin-top: 2.5rem;
+  border-bottom: 2px solid var(--gs-border);
+  padding-bottom: 0.35rem;
+}
+
+.page__content h3 {
+  color: var(--gs-blue);
+}
+
+/* Bloques destacados */
+.notice,
+.notice--primary,
+.notice--info {
+  border-radius: 18px;
+  border: 1px solid var(--gs-border);
+  box-shadow: 0 12px 30px rgba(16, 36, 58, 0.08);
+}
+
+/* Tarjetas caseras */
+.gs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.gs-card {
+  background: #fff;
+  border: 1px solid var(--gs-border);
+  border-radius: 22px;
+  padding: 1.25rem;
+  box-shadow: 0 12px 28px rgba(16, 36, 58, 0.08);
+}
+
+.gs-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  color: var(--gs-blue-dark);
+}
+
+.gs-card p {
+  margin-bottom: 0;
+  color: var(--gs-muted);
+}
+
+/* Etiquetas */
+.gs-tag {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  margin: 0.15rem 0.2rem 0.15rem 0;
+  border-radius: 999px;
+  background: #F3E8DF;
+  color: var(--gs-copper);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Tablas */
+table {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(16, 36, 58, 0.07);
+}
+
+thead {
+  background: var(--gs-blue);
+  color: white;
+}
+
+th,
+td {
+  border-color: var(--gs-border);
+}
+
+/* Footer */
+.page__footer {
+  background: var(--gs-blue-dark);
+  color: #fff;
+}
+
+.page__footer a {
+  color: #fff;
+}

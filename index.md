@@ -1,28 +1,50 @@
 ---
 title: "Grupo Sintáctico"
+layout: splash
 permalink: /
-classes: wide
+header:
+  overlay_color: "#10243A"
+  overlay_filter: "0.35"
+  actions:
+    - label: "Ver calendario"
+      url: "/grupo-sintactico/calendario/"
+    - label: "Actividades"
+      url: "/grupo-sintactico/actividades/"
+excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica para estudiantes de Letras."
 ---
 
-**Grupo Sintáctico** es un espacio de lectura, discusión y formación en temas de sintaxis teórica, orientado especialmente a estudiantes de Letras interesados en la gramática formal.
+<div class="gs-grid">
+  <div class="gs-card">
+    <h3>Lecturas guiadas</h3>
+    <p>Encuentros dedicados a textos clásicos y contemporáneos de sintaxis formal.</p>
+  </div>
 
-El objetivo del grupo es leer bibliografía clásica y contemporánea, discutir problemas empíricos del español y construir herramientas de trabajo colectivo para el estudio de la sintaxis.
+  <div class="gs-card">
+    <h3>Discusión colectiva</h3>
+    <p>Presentación de problemas, análisis de ejemplos y debate sobre distintas hipótesis.</p>
+  </div>
 
-## Objetivos
+  <div class="gs-card">
+    <h3>Formación gradual</h3>
+    <p>Un recorrido pensado para estudiantes de Letras con interés en gramática generativa.</p>
+  </div>
+</div>
 
-- Leer y discutir textos fundamentales de sintaxis.
-- Presentar problemas empíricos del español y de otras lenguas.
-- Introducir herramientas básicas de análisis sintáctico.
-- Generar un espacio horizontal de intercambio entre estudiantes.
-- Elaborar materiales colectivos: fichas, esquemas, resúmenes y preguntas de lectura.
+## Sobre el grupo
+
+El **Grupo Sintáctico** es un espacio de lectura y discusión dedicado a temas de sintaxis teórica, orientado especialmente a estudiantes de Letras interesados en la gramática formal.
+
+El objetivo del grupo es construir una dinámica de trabajo colectivo: leer bibliografía relevante, discutir análisis sintácticos, revisar problemas empíricos del español y familiarizarse con herramientas conceptuales de la teoría gramatical contemporánea.
+
+<span class="gs-tag">sintaxis</span>
+<span class="gs-tag">gramática generativa</span>
+<span class="gs-tag">español</span>
+<span class="gs-tag">lectura colectiva</span>
 
 ## Modalidad de trabajo
 
-Los encuentros se organizan alrededor de una lectura común. En cada reunión, una o más personas presentan brevemente el texto asignado, formulan problemas de discusión y coordinan el intercambio general.
+Los encuentros combinan exposición breve, discusión de textos y análisis de datos. Cada reunión se organiza en torno a un tema o problema: sujetos nulos, movimiento, clíticos, estructura argumental, periferia izquierda, concordancia, caso, entre otros.
 
-No se presupone formación técnica avanzada. La idea es construir progresivamente un vocabulario compartido sobre nociones centrales de la sintaxis: constituyencia, categorías, funciones, movimiento, caso, concordancia, estructura argumental y periferia izquierda, entre otras.
+## Próximos pasos
 
-## Cómo participar
-
-El grupo está dirigido a estudiantes de Letras con interés en gramática, teoría lingüística y análisis sintáctico. Para sumarse, alcanza con escribir a la coordinación del grupo o acercarse a alguno de los encuentros programados.
-
+Consultá el [calendario](/grupo-sintactico/calendario/) para ver los próximos temas y la bibliografía prevista. También podés revisar las [actividades realizadas](/grupo-sintactico/actividades/) y la lista de [integrantes](/grupo-sintactico/integrantes/).
