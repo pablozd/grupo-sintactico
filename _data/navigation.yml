@@ -1,0 +1,11 @@
+main:
+  - title: "Sobre el grupo"
+    url: /
+  - title: "Actividades"
+    url: /actividades/
+  - title: "Calendario"
+    url: /calendario/
+  - title: "Integrantes"
+    url: /integrantes/
+  - title: "Bibliografía"
+    url: /bibliografia/
