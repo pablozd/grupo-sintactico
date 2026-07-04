@@ -242,8 +242,9 @@ a:hover {
 
 .gs-member-photo {
   display: block;
-  width: 56px;
-  height: 56px;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
   object-fit: cover;
   border: 2px solid var(--gs-white);
   border-radius: 50%;
@@ -286,6 +287,10 @@ thead {
 th,
 td {
   border-color: var(--gs-border);
+}
+
+td {
+  vertical-align: middle;
 }
 
 .page__footer {
