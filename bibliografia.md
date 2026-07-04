@@ -25,7 +25,7 @@ Esta bibliografía reúne las lecturas realizadas y en curso del grupo.
     <div>
       <span class="gs-reading-status gs-reading-status--read">Leído</span>
       <h4><em>Introduction to Government and Binding Theory</em></h4>
-      <p>Haegeman, Liliane. 1994. 2.ª edición, ilustrada y reimpresa. Wiley. Blackwell Textbooks in Linguistics.</p>
+      <p>Haegeman, Liliane. 1994. 2.ª edición, ilustrada y reimpresa. Wiley. Blackwell Textbooks in Linguistics. — <strong>Capítulo 4</strong>.</p>
     </div>
   </article>
 </div>
