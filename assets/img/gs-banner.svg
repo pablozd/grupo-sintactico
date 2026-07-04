@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1D3557"/>
+      <stop offset="55%" stop-color="#264653"/>
+      <stop offset="100%" stop-color="#7A9E9F"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="78%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#D17A5B" stop-opacity="0.72"/>
+      <stop offset="70%" stop-color="#D17A5B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="650" fill="url(#bg)"/>
+  <rect width="1600" height="650" fill="url(#warm)"/>
+
+  <g opacity="0.18" fill="none" stroke="#F7F3ED" stroke-width="3">
+    <path d="M108 520 C260 365 350 390 470 240 S720 130 875 260 S1110 445 1490 120"/>
+    <path d="M80 420 C210 300 330 305 465 180 S735 60 920 210 S1160 390 1510 88"/>
+    <path d="M170 585 C380 410 530 460 660 300 S900 190 1060 330 S1270 475 1540 260"/>
+  </g>
+
+  <g opacity="0.24" stroke="#F7F3ED" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M1190 145 L1190 245"/>
+    <path d="M1190 245 C1125 260 1080 300 1050 365"/>
+    <path d="M1190 245 C1260 265 1310 310 1345 382"/>
+    <path d="M1050 365 C1010 375 980 400 955 435"/>
+    <path d="M1050 365 C1105 378 1140 405 1165 447"/>
+    <path d="M1345 382 C1300 395 1265 425 1242 468"/>
+    <path d="M1345 382 C1396 398 1438 430 1470 480"/>
+  </g>
+
+  <g opacity="0.18" fill="#F7F3ED">
+    <circle cx="1190" cy="145" r="10"/>
+    <circle cx="1190" cy="245" r="8"/>
+    <circle cx="1050" cy="365" r="8"/>
+    <circle cx="1345" cy="382" r="8"/>
+    <circle cx="955" cy="435" r="6"/>
+    <circle cx="1165" cy="447" r="6"/>
+    <circle cx="1242" cy="468" r="6"/>
+    <circle cx="1470" cy="480" r="6"/>
+  </g>
+
+  <g opacity="0.16" fill="#F7F3ED" font-family="Georgia, serif" font-size="42">
+    <text x="92" y="145">[ Sintagma ]</text>
+    <text x="165" y="215">movimiento</text>
+    <text x="106" y="285">concordancia</text>
+    <text x="215" y="355">caso</text>
+  </g>
+</svg>

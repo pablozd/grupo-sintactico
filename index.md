@@ -3,8 +3,9 @@ title: "Grupo Sintáctico"
 layout: splash
 permalink: /
 header:
-  overlay_color: "#10243A"
-  overlay_filter: "0.35"
+  overlay_image: /assets/img/gs-banner.svg
+  overlay_color: "#1D3557"
+  overlay_filter: "0.28"
   actions:
     - label: "Ver calendario"
       url: "/grupo-sintactico/calendario/"

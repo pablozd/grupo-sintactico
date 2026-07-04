@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Grupo Sintáctico">
+  <rect width="240" height="240" rx="54" fill="#F7F3ED"/>
+  <path d="M120 46 C98 46 80 60 80 82 C80 99 91 111 108 116" fill="none" stroke="#264653" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 46 C142 46 160 60 160 82 C160 99 149 111 132 116" fill="none" stroke="#264653" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 116 L120 155" fill="none" stroke="#264653" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 155 C96 155 76 169 66 191" fill="none" stroke="#D17A5B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 155 C144 155 164 169 174 191" fill="none" stroke="#D17A5B" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="120" cy="116" r="12" fill="#7A9E9F"/>
+  <circle cx="80" cy="82" r="8" fill="#D17A5B"/>
+  <circle cx="160" cy="82" r="8" fill="#D17A5B"/>
+  <circle cx="66" cy="191" r="8" fill="#264653"/>
+  <circle cx="174" cy="191" r="8" fill="#264653"/>
+</svg>
