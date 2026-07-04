@@ -32,7 +32,15 @@ Esta bibliografía reúne las lecturas realizadas y en curso del grupo.
 
 ### 2025
 
-- Saab, Andrés. En prensa. *Gramática de los silencios. Balance y propuesta*. Madrid: Akal.
+<div class="gs-reading-list">
+  <article class="gs-reading-card gs-reading-card--without-cover">
+    <div>
+      <span class="gs-reading-status gs-reading-status--read">Leído</span>
+      <h4><em>Gramática de los silencios. Balance y propuesta</em></h4>
+      <p>Saab, Andrés. En prensa. Madrid: Akal.</p>
+    </div>
+  </article>
+</div>
 
 ## Temas posibles
 
