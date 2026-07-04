@@ -16,18 +16,18 @@ Esta sección reúne a quienes participan del Grupo Sintáctico. Puede incluir e
 
 | Foto | Nombre | Carrera / pertenencia | Intereses |
 |---|---|---|---|
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 1 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 2 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 3 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 4 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 5 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 6 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 7 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 8 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 9 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 10 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 11 | A definir | A definir |
-| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Integrante 12 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 1 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 2 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 3 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 4 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 5 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 6 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 7 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 8 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 9 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 10 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 11 | A definir | A definir |
+| <img class="gs-member-photo" src="{{ '/assets/img/members/placeholder.svg' | relative_url }}" alt="Foto pendiente" width="44" height="44"> | Participante 12 | A definir | A definir |
 
 ## Invitados/as
 
