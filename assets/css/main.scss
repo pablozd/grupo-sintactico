@@ -184,6 +184,73 @@ a:hover {
   letter-spacing: 0.025em;
 }
 
+.gs-reading-list {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.25rem 0 2.5rem;
+}
+
+.gs-reading-card {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--gs-border);
+  border-radius: 22px;
+  box-shadow: 0 14px 32px rgba(29, 53, 87, 0.09);
+}
+
+.gs-reading-card img {
+  display: block;
+  width: 118px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(29, 53, 87, 0.22);
+}
+
+.gs-reading-card h4 {
+  margin: 0.55rem 0 0.35rem;
+  color: var(--gs-blue-dark);
+  font-size: 1.2rem;
+}
+
+.gs-reading-card p {
+  margin: 0;
+  color: var(--gs-muted);
+}
+
+.gs-reading-status {
+  display: inline-block;
+  padding: 0.18rem 0.58rem;
+  border-radius: 999px;
+  background: #E2EEEE;
+  color: var(--gs-blue);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.gs-reading-status--read {
+  background: #F1E3DA;
+  color: #9E4F38;
+}
+
+@media (max-width: 520px) {
+  .gs-reading-card {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .gs-reading-card img {
+    width: 88px;
+  }
+}
+
 .notice,
 .notice--primary,
 .notice--info {
