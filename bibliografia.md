@@ -33,7 +33,8 @@ Esta bibliografía reúne las lecturas realizadas y en curso del grupo.
 ### 2025
 
 <div class="gs-reading-list">
-  <article class="gs-reading-card gs-reading-card--without-cover">
+  <article class="gs-reading-card">
+    <img src="{{ '/assets/img/books/saab-gramatica-silencios.svg' | relative_url }}" alt="Tapa de Gramática de los silencios, de Andrés Saab" width="72" height="108">
     <div>
       <span class="gs-reading-status gs-reading-status--read">Leído</span>
       <h4><em>Gramática de los silencios. Balance y propuesta</em></h4>
