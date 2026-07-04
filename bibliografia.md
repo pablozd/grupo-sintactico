@@ -16,7 +16,7 @@ Esta bibliografía reúne las lecturas realizadas y en curso del grupo.
 
 <div class="gs-reading-list">
   <article class="gs-reading-card">
-    <img src="{{ '/assets/img/books/buring-binding-theory.jpg' | relative_url }}" alt="Tapa de Binding Theory, de Daniel Büring">
+    <img src="{{ '/assets/img/books/buring-binding-theory.jpg' | relative_url }}" alt="Tapa de Binding Theory, de Daniel Büring" width="72" height="108">
     <div>
       <span class="gs-reading-status">En lectura</span>
       <h4><em>Binding Theory</em></h4>
@@ -25,7 +25,7 @@ Esta bibliografía reúne las lecturas realizadas y en curso del grupo.
   </article>
 
   <article class="gs-reading-card">
-    <img src="{{ '/assets/img/books/haegeman-government-binding.jpg' | relative_url }}" alt="Tapa de Introduction to Government and Binding Theory, de Liliane Haegeman">
+    <img src="{{ '/assets/img/books/haegeman-government-binding.jpg' | relative_url }}" alt="Tapa de Introduction to Government and Binding Theory, de Liliane Haegeman" width="72" height="108">
     <div>
       <span class="gs-reading-status gs-reading-status--read">Leído</span>
       <h4><em>Introduction to Government and Binding Theory</em></h4>
