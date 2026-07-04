@@ -8,9 +8,9 @@ header:
   overlay_filter: "0.28"
   actions:
     - label: "Ver calendario"
-      url: "/grupo-sintactico/calendario/"
+      url: "/calendario/"
     - label: "Actividades"
-      url: "/grupo-sintactico/actividades/"
+      url: "/actividades/"
 excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica para estudiantes de Letras."
 ---
 
