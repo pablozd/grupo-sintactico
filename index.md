@@ -11,7 +11,7 @@ header:
       url: "/calendario/"
     - label: "Actividades"
       url: "/actividades/"
-excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica para estudiantes de la Facultad de Filosofía y Letras (UBA)."
+excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica para estudiantes de Letras, en la Facultad de Filosofía y Letras (UBA)."
 ---
 
 <div class="gs-grid">
