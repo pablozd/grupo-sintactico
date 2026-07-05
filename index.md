@@ -11,7 +11,7 @@ header:
       url: "/calendario/"
     - label: "Actividades"
       url: "/actividades/"
-excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica para estudiantes de Letras."
+excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica para estudiantes de la Facultad de Filosofía y Letras (UBA)."
 ---
 
 <div class="gs-grid">
@@ -33,7 +33,7 @@ excerpt: "Un espacio de lectura, discusión y formación en sintaxis teórica pa
 
 ## Sobre el grupo
 
-El **Grupo Sintáctico** es un espacio de lectura y discusión dedicado a temas de sintaxis teórica, orientado especialmente a estudiantes de Letras interesados en la gramática formal.
+El **Grupo Sintáctico** es un espacio de lectura y discusión dedicado a temas de sintaxis teórica, de la Facultad de Filosofía y Letras de la Universidad de Buenos Aires (UBA), orientado especialmente a estudiantes de Letras interesados en la gramática formal.
 
 El objetivo del grupo es construir una dinámica de trabajo colectivo: leer bibliografía relevante, discutir análisis sintácticos, revisar problemas empíricos del español y familiarizarse con herramientas conceptuales de la teoría gramatical contemporánea.
 
