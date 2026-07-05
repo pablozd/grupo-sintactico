@@ -2,6 +2,8 @@
 title: "Bibliografía"
 permalink: /bibliografia/
 classes: wide
+lang: es
+page_id: bibliografia
 ---
 
 Esta bibliografía reúne las lecturas realizadas y en curso del grupo.

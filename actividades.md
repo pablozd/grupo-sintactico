@@ -2,6 +2,8 @@
 title: "Actividades"
 permalink: /actividades/
 classes: wide
+lang: es
+page_id: actividades
 ---
 
 En esta sección registramos las actividades realizadas por el grupo: encuentros de lectura, presentaciones, talleres breves, discusiones de textos y materiales producidos colectivamente.

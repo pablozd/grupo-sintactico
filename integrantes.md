@@ -2,6 +2,8 @@
 title: "Integrantes"
 permalink: /integrantes/
 classes: wide
+lang: es
+page_id: integrantes
 ---
 
 Esta sección reúne a quienes participan del Grupo Sintáctico. Puede incluir estudiantes, docentes, graduados/as o personas invitadas.

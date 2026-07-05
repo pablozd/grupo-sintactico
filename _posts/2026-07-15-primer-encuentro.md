@@ -6,6 +6,9 @@ categories:
 tags:
   - sintaxis
   - lecturas
+permalink: /encuentros/primer-encuentro/
+lang: es
+page_id: primer-encuentro
 ---
 
 En el primer encuentro se presentará el funcionamiento general del grupo, la modalidad de trabajo y una propuesta inicial de temas para el calendario de lecturas.

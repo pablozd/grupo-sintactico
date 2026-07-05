@@ -240,6 +240,32 @@ a:hover {
   color: #9E4F38;
 }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-inline-start: 0.75rem;
+}
+
+.lang-switch__link {
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: var(--gs-muted);
+  text-decoration: none;
+}
+
+.lang-switch__link:hover {
+  color: var(--gs-copper);
+}
+
+.lang-switch__link.is-active {
+  background: var(--gs-blue);
+  color: white;
+}
+
 .gs-member-photo {
   display: block;
   width: 44px;
@@ -274,9 +300,18 @@ a:hover {
 }
 
 table {
+  display: table;
+  width: 100%;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 12px 30px rgba(29, 53, 87, 0.08);
+}
+
+@media (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
 }
 
 thead {

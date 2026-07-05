@@ -1,4 +1,4 @@
-main:
+es:
   - title: "Sobre el grupo"
     url: /
   - title: "Actividades"
@@ -9,3 +9,14 @@ main:
     url: /integrantes/
   - title: "Bibliografía"
     url: /bibliografia/
+en:
+  - title: "About"
+    url: /en/
+  - title: "Activities"
+    url: /en/actividades/
+  - title: "Calendar"
+    url: /en/calendario/
+  - title: "Members"
+    url: /en/integrantes/
+  - title: "Bibliography"
+    url: /en/bibliografia/

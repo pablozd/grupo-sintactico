@@ -2,6 +2,8 @@
 title: "Calendario"
 permalink: /calendario/
 classes: wide
+lang: es
+page_id: calendario
 ---
 
 Este calendario reúne los próximos encuentros del grupo. Las fechas, los textos y las personas responsables pueden modificarse a medida que se organice la cursada o el ciclo de lecturas.

@@ -2,6 +2,8 @@
 title: "Grupo Sintáctico"
 layout: splash
 permalink: /
+lang: es
+page_id: home
 header:
   overlay_image: /assets/img/gs-banner.svg
   overlay_color: "#1D3557"
