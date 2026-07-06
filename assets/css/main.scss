@@ -277,6 +277,101 @@ a:hover {
   box-shadow: 0 5px 14px rgba(29, 53, 87, 0.2);
 }
 
+.gs-member-name {
+  font-weight: 700;
+  color: var(--gs-blue);
+}
+
+.gs-member-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.gs-member-modal:target {
+  display: flex;
+}
+
+.gs-member-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(34, 37, 43, 0.62);
+  backdrop-filter: blur(2px);
+}
+
+.gs-member-modal__card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 340px;
+  background: var(--gs-white);
+  border-radius: 26px;
+  padding: 2rem 1.75rem 1.75rem;
+  text-align: center;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
+}
+
+.gs-member-modal__close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--gs-cream);
+  color: var(--gs-ink);
+  text-decoration: none;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.gs-member-modal__close:hover {
+  background: var(--gs-copper);
+  color: white;
+}
+
+.gs-member-modal__photo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 1rem;
+  object-fit: cover;
+  border: 3px solid var(--gs-white);
+  border-radius: 50%;
+  box-shadow: 0 10px 24px rgba(29, 53, 87, 0.28);
+}
+
+.gs-member-modal__card h3 {
+  margin: 0 0 0.35rem;
+  color: var(--gs-blue-dark);
+}
+
+.gs-member-modal__role {
+  color: var(--gs-copper);
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.9rem;
+}
+
+.gs-member-modal__field {
+  text-align: left;
+  color: var(--gs-muted);
+  margin: 0.35rem 0;
+}
+
+.gs-member-modal__field strong {
+  color: var(--gs-ink);
+}
+
 @media (max-width: 520px) {
   .gs-reading-card {
     grid-template-columns: 60px minmax(0, 1fr);

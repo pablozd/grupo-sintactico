@@ -1,0 +1,77 @@
+coordinators:
+  - id: coordinador
+    name: "Pablo Zdrojewski"
+    photo: "/assets/img/members/pablo-zdrojewski.jpg"
+    role:
+      es: "Coordinador"
+      en: "Coordinator"
+    email: "pablo.zd@gmail.com"
+
+participants:
+  - id: participante-1
+    name: { es: "Participante 1", en: "Member 1" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-2
+    name: { es: "Participante 2", en: "Member 2" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-3
+    name: { es: "Participante 3", en: "Member 3" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-4
+    name: { es: "Participante 4", en: "Member 4" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-5
+    name: { es: "Participante 5", en: "Member 5" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-6
+    name: { es: "Participante 6", en: "Member 6" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-7
+    name: { es: "Participante 7", en: "Member 7" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-8
+    name: { es: "Participante 8", en: "Member 8" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-9
+    name: { es: "Participante 9", en: "Member 9" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-10
+    name: { es: "Participante 10", en: "Member 10" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-11
+    name: { es: "Participante 11", en: "Member 11" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+  - id: participante-12
+    name: { es: "Participante 12", en: "Member 12" }
+    photo: "/assets/img/members/placeholder.svg"
+    program: { es: "A definir", en: "TBD" }
+    interests: { es: "A definir", en: "TBD" }
+
+guests:
+  - id: invitado-1
+    name: { es: "Invitado/a 1", en: "Guest 1" }
+    photo: "/assets/img/members/placeholder.svg"
+    affiliation: { es: "A definir", en: "TBD" }
+    topic: { es: "A definir", en: "TBD" }
