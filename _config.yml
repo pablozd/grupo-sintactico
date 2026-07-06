@@ -1,5 +1,6 @@
 title: "Grupo Sintáctico"
-subtitle: "Facultad de Filosofía y Letras (UBA)"
+subtitle: "Facultad de Filosofía y Letras"
+subtitle2: "Universidad de Buenos Aires"
 description: "Sitio del Grupo Sintáctico, de la Facultad de Filosofía y Letras (UBA): lecturas, actividades, calendario e integrantes."
 logo: "/assets/img/gs-logo.svg"
 url: "https://pablozd.ar"
@@ -15,7 +16,7 @@ timezone: "America/Argentina/Buenos_Aires"
 languages: ["es", "en"]
 default_lang: "es"
 exclude_from_localization: ["assets", "sitemap.xml"]
-parallel_localization: true
+parallel_localization: false
 
 plugins:
   - jekyll-include-cache

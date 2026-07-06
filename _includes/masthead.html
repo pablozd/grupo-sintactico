@@ -10,7 +10,7 @@
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title | escape_once | strip }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}{% if site.subtitle2 %}<br>{{ site.subtitle2 | escape_once | strip }}{% endif %}</span>{% endif %}
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation[site.active_lang] -%}
@@ -25,14 +25,8 @@
         </ul>
         <div class="lang-switch">
           {%- for lang in site.languages -%}
-            {%- assign this_permalink = page.permalink | default: "/" -%}
-            {%- if lang == site.default_lang -%}
-              {%- assign target_path = this_permalink -%}
-            {%- else -%}
-              {%- assign target_path = "/" | append: lang | append: this_permalink -%}
-            {%- endif -%}
-            {%- capture href_value -%}href="{{ target_path | relative_url }}"{%- endcapture -%}
-            <a class="lang-switch__link{% if lang == site.active_lang %} is-active{% endif %}" {% static_href %}{{ href_value }}{% endstatic_href %}>{{ lang | upcase }}</a>
+            {%- capture lang_href -%}{{ site.baseurl }}{% unless lang == site.default_lang %}/{{ lang }}{% endunless %}{{ page.permalink_lang[lang] }}{%- endcapture -%}
+            <a class="lang-switch__link{% if lang == site.active_lang %} is-active{% endif %}" {% static_href %}href="{{ lang_href }}"{% endstatic_href %}>{{ lang | upcase }}</a>
           {%- endfor -%}
         </div>
         {% if site.search == true %}
