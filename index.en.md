@@ -13,7 +13,7 @@ header:
       url: "/calendario/"
     - label: "Activities"
       url: "/actividades/"
-excerpt: "A space for reading, discussion, and training in theoretical syntax for Letras students, at the School of Philosophy and Letters (UBA)."
+excerpt: "A space for reading, discussion, and training in theoretical syntax for Letras students, at the Facultad de Filosofía y Letras (UBA)."
 ---
 
 <div class="gs-grid">
@@ -35,7 +35,7 @@ excerpt: "A space for reading, discussion, and training in theoretical syntax fo
 
 ## About the group
 
-**Grupo Sintáctico** is a reading and discussion space devoted to theoretical syntax, at the School of Philosophy and Letters of the University of Buenos Aires (UBA), aimed especially at Letras students interested in formal grammar.
+**Grupo Sintáctico** is a reading and discussion space devoted to theoretical syntax, at the Facultad de Filosofía y Letras of the Universidad de Buenos Aires (UBA), aimed especially at Letras students interested in formal grammar.
 
 The group's goal is to build a collective way of working: reading relevant scholarship, discussing syntactic analyses, examining empirical problems in Spanish, and getting familiar with the conceptual tools of contemporary grammatical theory.
 
