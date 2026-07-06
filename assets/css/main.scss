@@ -280,15 +280,6 @@ a:hover {
 .gs-member-name {
   font-weight: 700;
   color: var(--gs-blue);
-  cursor: pointer;
-}
-
-.gs-member-toggle {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  pointer-events: none;
 }
 
 .gs-member-modal {
@@ -301,7 +292,7 @@ a:hover {
   padding: 1.5rem;
 }
 
-.gs-member-toggle:checked + .gs-member-modal {
+.gs-member-modal:target {
   display: flex;
 }
 
@@ -310,7 +301,6 @@ a:hover {
   inset: 0;
   background: rgba(34, 37, 43, 0.62);
   backdrop-filter: blur(2px);
-  cursor: pointer;
 }
 
 .gs-member-modal__card {
@@ -340,7 +330,6 @@ a:hover {
   text-decoration: none;
   font-size: 1.3rem;
   line-height: 1;
-  cursor: pointer;
 }
 
 .gs-member-modal__close:hover {
