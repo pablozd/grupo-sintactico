@@ -9,10 +9,11 @@ coordinators:
 
 participants:
   - id: participante-1
-    name: { es: "Participante 1", en: "Member 1" }
-    photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
-    interests: { es: "A definir", en: "TBD" }
+    name: { es: "Daniela Vanney", en: "Daniela Vanney" }
+    photo: "/assets/img/members/daniela-vanney.jpeg"
+    email: "danielavanney@outlook.com"
+    program: { es: "Letras / FFyL, UBA", en: "Letras / FFyL, UBA" }
+    interests: { es: "Lingüística formal, sintaxis, morfología, PLN, tipología lingüística y lenguas indígenas", en: "Formal linguistics, syntax, morphology, NLP, linguistic typology, and indigenous languages" }
   - id: participante-2
     name: { es: "Participante 2", en: "Member 2" }
     photo: "/assets/img/members/placeholder.svg"
