@@ -284,22 +284,22 @@ a:hover {
   white-space: nowrap;
 }
 
-.gs-participants-table table {
+.gs-member-table table {
   table-layout: fixed;
+}
+
+.gs-member-table th:nth-child(1),
+.gs-member-table td:nth-child(1) {
+  width: 7%;
+}
+
+.gs-member-table th:nth-child(2),
+.gs-member-table td:nth-child(2) {
+  width: 20%;
 }
 
 .gs-participants-table td {
   vertical-align: top;
-}
-
-.gs-participants-table th:nth-child(1),
-.gs-participants-table td:nth-child(1) {
-  width: 7%;
-}
-
-.gs-participants-table th:nth-child(2),
-.gs-participants-table td:nth-child(2) {
-  width: 20%;
 }
 
 .gs-participants-table th:nth-child(3),
@@ -357,10 +357,10 @@ a:hover {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 340px;
+  max-width: 420px;
   background: var(--gs-white);
   border-radius: 26px;
-  padding: 2rem 1.75rem 1.75rem;
+  padding: 2rem 2.25rem 1.75rem;
   text-align: center;
   box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
 }

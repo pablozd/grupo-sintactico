@@ -10,15 +10,19 @@ This section brings together those who take part in Grupo Sintáctico. It may in
 
 ## Coordination
 
+<div class="gs-member-table" markdown="1">
+
 | Photo | Name | Role | Contact |
 |---|---|---|---|
 {%- for m in site.data.members.coordinators %}
 | <img class="gs-member-photo" src="{{ m.photo | relative_url }}" alt="Photo of {{ m.name }}" width="44" height="44"> | <label class="gs-member-name" for="toggle-{{ m.id }}">{{ m.name }}</label> | {{ m.role.en }} | [{{ m.email }}](mailto:{{ m.email }}) |
 {%- endfor %}
 
+</div>
+
 ## Members
 
-<div class="gs-participants-table" markdown="1">
+<div class="gs-member-table gs-participants-table" markdown="1">
 
 | Photo | Name | Affiliation | Level | Interests | Contact |
 |---|---|---|---|---|---|

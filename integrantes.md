@@ -10,15 +10,19 @@ Esta sección reúne a quienes participan del Grupo Sintáctico. Puede incluir e
 
 ## Coordinación
 
+<div class="gs-member-table" markdown="1">
+
 | Foto | Nombre | Rol | Contacto |
 |---|---|---|---|
 {%- for m in site.data.members.coordinators %}
 | <img class="gs-member-photo" src="{{ m.photo | relative_url }}" alt="Foto de {{ m.name }}" width="44" height="44"> | <label class="gs-member-name" for="toggle-{{ m.id }}">{{ m.name }}</label> | {{ m.role.es }} | [{{ m.email }}](mailto:{{ m.email }}) |
 {%- endfor %}
 
+</div>
+
 ## Participantes
 
-<div class="gs-participants-table" markdown="1">
+<div class="gs-member-table gs-participants-table" markdown="1">
 
 | Foto | Nombre | Afiliación | Nivel | Intereses | Contacto |
 |---|---|---|---|---|---|
