@@ -304,23 +304,23 @@ a:hover {
 
 .gs-participants-table th:nth-child(3),
 .gs-participants-table td:nth-child(3) {
-  width: 19%;
+  width: 14%;
 }
 
 .gs-participants-table th:nth-child(4),
 .gs-participants-table td:nth-child(4) {
-  width: 10%;
+  width: 9%;
 }
 
 .gs-participants-table th:nth-child(5),
 .gs-participants-table td:nth-child(5) {
-  width: 24%;
+  width: 22%;
 }
 
 .gs-participants-table th:nth-child(6),
 .gs-participants-table td:nth-child(6) {
-  width: 20%;
-  word-break: break-word;
+  width: 28%;
+  white-space: nowrap;
 }
 
 .gs-member-toggle {

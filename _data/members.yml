@@ -12,73 +12,73 @@ participants:
     name: { es: "Daniela Vanney", en: "Daniela Vanney" }
     photo: "/assets/img/members/daniela-vanney.jpeg"
     email: "danielavanney@outlook.com"
-    program: { es: "Letras / FFyL, UBA", en: "Letras / FFyL, UBA" }
+    affiliation: { es: "Letras UBA", en: "Letras UBA" }
     level: { es: "Grado", en: "Undergraduate" }
     interests: { es: "Lingüística formal, sintaxis, morfología, PLN, tipología lingüística y lenguas indígenas", en: "Formal linguistics, syntax, morphology, NLP, linguistic typology, and indigenous languages" }
   - id: participante-2
     name: { es: "Participante 2", en: "Member 2" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-3
     name: { es: "Participante 3", en: "Member 3" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-4
     name: { es: "Participante 4", en: "Member 4" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-5
     name: { es: "Participante 5", en: "Member 5" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-6
     name: { es: "Participante 6", en: "Member 6" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-7
     name: { es: "Participante 7", en: "Member 7" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-8
     name: { es: "Participante 8", en: "Member 8" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-9
     name: { es: "Participante 9", en: "Member 9" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-10
     name: { es: "Participante 10", en: "Member 10" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-11
     name: { es: "Participante 11", en: "Member 11" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
   - id: participante-12
     name: { es: "Participante 12", en: "Member 12" }
     photo: "/assets/img/members/placeholder.svg"
-    program: { es: "A definir", en: "TBD" }
+    affiliation: { es: "A definir", en: "TBD" }
     level: { es: "A definir", en: "TBD" }
     interests: { es: "A definir", en: "TBD" }
 
