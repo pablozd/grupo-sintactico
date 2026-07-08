@@ -18,11 +18,15 @@ This section brings together those who take part in Grupo Sintáctico. It may in
 
 ## Members
 
-| Photo | Name | Program / affiliation | Interests |
-|---|---|---|---|
+<div class="gs-participants-table" markdown="1">
+
+| Photo | Name | Program / affiliation | Level | Interests | Contact |
+|---|---|---|---|---|---|
 {%- for m in site.data.members.participants %}
-| <img class="gs-member-photo" src="{{ m.photo | relative_url }}" alt="{% if m.photo contains 'placeholder' %}Photo pending{% else %}Photo of {{ m.name.en }}{% endif %}" width="44" height="44"> | <label class="gs-member-name" for="toggle-{{ m.id }}">{{ m.name.en }}</label> | {{ m.program.en }} | {{ m.interests.en }} |
+| <img class="gs-member-photo" src="{{ m.photo | relative_url }}" alt="{% if m.photo contains 'placeholder' %}Photo pending{% else %}Photo of {{ m.name.en }}{% endif %}" width="44" height="44"> | <label class="gs-member-name" for="toggle-{{ m.id }}">{{ m.name.en }}</label> | {{ m.program.en }} | {{ m.level.en }} | {{ m.interests.en }} | {% if m.email %}[{{ m.email }}](mailto:{{ m.email }}){% else %}TBD{% endif %} |
 {%- endfor %}
+
+</div>
 
 ## Guests
 
@@ -58,6 +62,7 @@ This section brings together those who take part in Grupo Sintáctico. It may in
     <img class="gs-member-modal__photo" src="{{ m.photo | relative_url }}" alt="{% if m.photo contains 'placeholder' %}Photo pending{% else %}Photo of {{ m.name.en }}{% endif %}">
     <h3>{{ m.name.en }}</h3>
     <p class="gs-member-modal__field"><strong>Program / affiliation:</strong> {{ m.program.en }}</p>
+    <p class="gs-member-modal__field"><strong>Level:</strong> {{ m.level.en }}</p>
     <p class="gs-member-modal__field"><strong>Interests:</strong> {{ m.interests.en }}</p>
     {% if m.email %}<p class="gs-member-modal__field"><strong>Contact:</strong> <a href="mailto:{{ m.email }}">{{ m.email }}</a></p>{% endif %}
   </div>

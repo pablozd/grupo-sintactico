@@ -18,11 +18,15 @@ Esta sección reúne a quienes participan del Grupo Sintáctico. Puede incluir e
 
 ## Participantes
 
-| Foto | Nombre | Carrera / pertenencia | Intereses |
-|---|---|---|---|
+<div class="gs-participants-table" markdown="1">
+
+| Foto | Nombre | Carrera / pertenencia | Nivel | Intereses | Contacto |
+|---|---|---|---|---|---|
 {%- for m in site.data.members.participants %}
-| <img class="gs-member-photo" src="{{ m.photo | relative_url }}" alt="{% if m.photo contains 'placeholder' %}Foto pendiente{% else %}Foto de {{ m.name.es }}{% endif %}" width="44" height="44"> | <label class="gs-member-name" for="toggle-{{ m.id }}">{{ m.name.es }}</label> | {{ m.program.es }} | {{ m.interests.es }} |
+| <img class="gs-member-photo" src="{{ m.photo | relative_url }}" alt="{% if m.photo contains 'placeholder' %}Foto pendiente{% else %}Foto de {{ m.name.es }}{% endif %}" width="44" height="44"> | <label class="gs-member-name" for="toggle-{{ m.id }}">{{ m.name.es }}</label> | {{ m.program.es }} | {{ m.level.es }} | {{ m.interests.es }} | {% if m.email %}[{{ m.email }}](mailto:{{ m.email }}){% else %}A definir{% endif %} |
 {%- endfor %}
+
+</div>
 
 ## Invitados/as
 
@@ -58,6 +62,7 @@ Esta sección reúne a quienes participan del Grupo Sintáctico. Puede incluir e
     <img class="gs-member-modal__photo" src="{{ m.photo | relative_url }}" alt="{% if m.photo contains 'placeholder' %}Foto pendiente{% else %}Foto de {{ m.name.es }}{% endif %}">
     <h3>{{ m.name.es }}</h3>
     <p class="gs-member-modal__field"><strong>Carrera / pertenencia:</strong> {{ m.program.es }}</p>
+    <p class="gs-member-modal__field"><strong>Nivel:</strong> {{ m.level.es }}</p>
     <p class="gs-member-modal__field"><strong>Intereses:</strong> {{ m.interests.es }}</p>
     {% if m.email %}<p class="gs-member-modal__field"><strong>Contacto:</strong> <a href="mailto:{{ m.email }}">{{ m.email }}</a></p>{% endif %}
   </div>
