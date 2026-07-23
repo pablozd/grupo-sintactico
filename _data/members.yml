@@ -16,17 +16,19 @@ participants:
     level: { es: "Grado", en: "Undergraduate" }
     interests: { es: "Lingüística formal, sintaxis, morfología, PLN, tipología lingüística y lenguas indígenas", en: "Formal linguistics, syntax, morphology, NLP, linguistic typology, and indigenous languages" }
   - id: participante-2
-    name: { es: "Participante 2", en: "Member 2" }
-    photo: "/assets/img/members/placeholder.svg"
-    affiliation: { es: "A definir", en: "TBD" }
-    level: { es: "A definir", en: "TBD" }
-    interests: { es: "A definir", en: "TBD" }
+    name: { es: "Virginia Duerto", en: "Virginia Duerto" }
+    photo: "/assets/img/members/virginia-duerto.jpeg"
+    email: "virginiaduerto98@gmail.com"
+    affiliation: { es: "IIF-SADAF-CONICET / UBA", en: "IIF-SADAF-CONICET / UBA" }
+    level: { es: "Posgrado (Doctorado en curso)", en: "Graduate (PhD in progress)" }
+    interests: { es: "Lingüística formal, Sintaxis, Semántica, Interfaz sintaxis-semántica y sintaxis-morfología, Lenguas Romances", en: "Formal linguistics, syntax, semantics, syntax-semantics and syntax-morphology interface, Romance languages" }
   - id: participante-3
-    name: { es: "Participante 3", en: "Member 3" }
-    photo: "/assets/img/members/placeholder.svg"
-    affiliation: { es: "A definir", en: "TBD" }
-    level: { es: "A definir", en: "TBD" }
-    interests: { es: "A definir", en: "TBD" }
+    name: { es: "Lourdes De Carolis", en: "Lourdes De Carolis" }
+    photo: "/assets/img/members/lourdes-de-carolis.jpeg"
+    email: "lourdesdecarolis@gmail.com"
+    affiliation: { es: "Letras UBA", en: "Letras UBA" }
+    level: { es: "Grado", en: "Undergraduate" }
+    interests: { es: "Lingüística formal, Sintaxis, Semántica, Lógica y LLMs", en: "Formal linguistics, syntax, semantics, logic, and LLMs" }
   - id: participante-4
     name: { es: "Participante 4", en: "Member 4" }
     photo: "/assets/img/members/placeholder.svg"
