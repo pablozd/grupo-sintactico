@@ -309,12 +309,13 @@ a:hover {
 
 .gs-participants-table th:nth-child(4),
 .gs-participants-table td:nth-child(4) {
-  width: 9%;
+  width: 12%;
+  overflow-wrap: break-word;
 }
 
 .gs-participants-table th:nth-child(5),
 .gs-participants-table td:nth-child(5) {
-  width: 22%;
+  width: 19%;
 }
 
 .gs-participants-table th:nth-child(6),
