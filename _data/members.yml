@@ -20,7 +20,7 @@ participants:
     photo: "/assets/img/members/virginia-duerto.jpeg"
     email: "virginiaduerto98@gmail.com"
     affiliation: { es: "IIF-SADAF-CONICET / UBA", en: "IIF-SADAF-CONICET / UBA" }
-    level: { es: "Posgrado (Doctorado en curso)", en: "Graduate (PhD in progress)" }
+    level: { es: "Posgrado", en: "Graduate" }
     interests: { es: "Lingüística formal, Sintaxis, Semántica, Interfaz sintaxis-semántica y sintaxis-morfología, Lenguas Romances", en: "Formal linguistics, syntax, semantics, syntax-semantics and syntax-morphology interface, Romance languages" }
   - id: participante-3
     name: { es: "Lourdes De Carolis", en: "Lourdes De Carolis" }
